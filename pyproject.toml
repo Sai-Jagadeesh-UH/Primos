@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "primos"
+version = "0.1.0"
+description = ""
+authors = ["Sai <ysaijagadeeshuh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+github = "^1.2.7"
+pillow = "^10.2.0"
+pandas = "^2.2.0"
+numpy = "^1.26.4"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
